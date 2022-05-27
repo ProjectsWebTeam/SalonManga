@@ -15,7 +15,7 @@
 
             <div class="cardUl">
                 <div class="imgUl">
-                    <img src="src/img/1.jpg" alt="">
+                    <img src="src/img/2.jpg" alt="">
                 </div>
                 <div class="cardInfo">
                     <p class="tituloCard">DanDaDan</p>
@@ -27,7 +27,7 @@
             
             <div class="cardUl">
                 <div class="imgUl">
-                    <img src="src/img/1.jpg" alt="">
+                    <img src="src/img/3.jpg" alt="">
                 </div>
                 <div class="cardInfo">
                     <p class="tituloCard">DanDaDan</p>
@@ -39,7 +39,7 @@
 
             <div class="cardUl">
                 <div class="imgUl">
-                    <img src="src/img/1.jpg" alt="">
+                    <img src="src/img/4.jpg" alt="">
                 </div>
                 <div class="cardInfo">
                     <p class="tituloCard">DanDaDan</p>
@@ -51,7 +51,7 @@
 
             <div class="cardUl">
                 <div class="imgUl">
-                    <img src="src/img/1.jpg" alt="">
+                    <img src="src/img/5.jpg" alt="">
                 </div>
                 <div class="cardInfo">
                     <p class="tituloCard">DanDaDan</p>
