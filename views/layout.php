@@ -11,9 +11,8 @@
 
 <body>
     <header class="header">
-        <div class="topnav">
+        <div class="topnav" id="miTopnav">
             <a href="/">Salon Manga</a>
-
             <div class="navegacion">
                 <a href="#">Categorias</a>
                 <a href="#">Ultimos</a>
@@ -22,6 +21,7 @@
             </div>
         </div>
     </header>
+    
     <?php echo $contenido; ?>
 
     <footer class="footer">
@@ -30,5 +30,4 @@
         </div>
     </footer>
 </body>
-
 </html>
