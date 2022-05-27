@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salon Manga</title>
-    <link rel="stylesheet" href="../src/css/styles.css">
-    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../public/src/css/styles.css">
+    <link rel="stylesheet" href="../public/src/css/normalize.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="topnav">
+        <div class="navBar">
             <a href="/">Salon Manga</a>
 
             <div class="navegacion">
