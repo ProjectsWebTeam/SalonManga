@@ -73,6 +73,14 @@ body {
 
 /*Finalización del NavBar*/
 
+/* Card mangas */
+.cardManga {
+    width: 25rem;
+    height: 50rem;
+}
+
+/* Final card */
+
 /*Footer*/
 .footer {
     background-color: #333;
