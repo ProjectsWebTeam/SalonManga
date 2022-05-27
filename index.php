@@ -3,4 +3,5 @@
     echo "Hola desde aqui";
     echo "Bienvienidos a SalonManga";
     echo "Casualidades";
+    echo "Prueba";
 ?>
