@@ -8,8 +8,11 @@ use MVC\Router;
 $router = new Router();
  
 //Area Publica
-//$router->get('/', [PaginasController::class, 'index']);
 $router->get('/', [PaginaController::class, 'index']);
+$router->get('/categorias', [PaginaController::class, 'categorias']);
+$router->get('/ultimos', [PaginaController::class, 'ultimos']);
+$router->get('/favoritos', [PaginaController::class, 'favoritos']);
+$router->get('/perfil', [PaginaController::class, 'perfil']);
 
 
 

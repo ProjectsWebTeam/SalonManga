@@ -14,10 +14,10 @@
         <div class="topnav" id="miTopnav">
             <a href="/">Salon Manga</a>
             <div class="navegacion">
-                <a href="#">Categorias</a>
-                <a href="#">Ultimos</a>
-                <a href="#">Favoritos</a>
-                <a href="#">Perfil</a>
+                <a href="/categorias">Categorias</a>
+                <a href="/ultimos">Ultimos</a>
+                <a href="/favoritos">Favoritos</a>
+                <a href="/perfil">Perfil</a>
             </div>
         </div>
     </header>
