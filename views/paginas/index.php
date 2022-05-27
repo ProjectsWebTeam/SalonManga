@@ -10,7 +10,6 @@
                   </div>
             </div>
         </div>
-
         <div class= "column">
             <div class="card">
                 <img src="../src/img/2.jpg" alt="Avatar" style="width:40rem">
@@ -20,7 +19,6 @@
                   </div>
             </div>
         </div>
-
         <div class= "column">
             <div class="card">
                 <img src="../src/img/3.jpg" alt="Avatar" style="width:40rem">
@@ -30,7 +28,6 @@
                   </div>
             </div>
         </div>
-
         <div class= "column">
             <div class="card">
                 <img src="../src/img/4.jpg" alt="Avatar" style="width:40rem">
@@ -41,9 +38,7 @@
             </div>
         </div>
     </div>
-
     <div class="row">
-
     </div>
   </div>
 </main>
