@@ -23,6 +23,12 @@
         </div>
     </header>
     <?php echo $contenido; ?>
+
+    <footer class="footer">
+        <div>
+            <p>&copy;2022. Derechos Reservados</p>
+        </div>
+    </footer>
 </body>
 
 </html>
