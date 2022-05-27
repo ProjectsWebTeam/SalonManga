@@ -9,3 +9,16 @@ html {
 body{
     
 }
+
+.header {
+    background-color: #CFCFCF;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;    
+
+    font-size: 1.8rem;
+}
