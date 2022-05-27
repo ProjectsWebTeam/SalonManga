@@ -52,6 +52,7 @@
 }
 
 .btnCard:hover {
-    background-color: darken(#4473ED,5);
+    background-color: #3b66d3;
+    transition: all .5s ease;
     cursor: pointer;
 }
