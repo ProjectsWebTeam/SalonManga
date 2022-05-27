@@ -73,41 +73,42 @@ body {
 
 /*Finalización del NavBar*/
 
-/*Creación de Grid*/
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr)  ;
-  grid-gap: 10rem;
-  background-color: white;
-  padding: 10rem;
+/*Creacion de las columnas para las Cards*/
+
+/* Cuatro columnas flotantes de lado a lado */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 1rem;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 0.1rem 0;
-  font-size: 3rem;
-}
-/*Finalización del Grid*/
+/* Remover el margen extra de izquierda y derecha */
+.row {margin: 0 -0.05rem;}
 
-/*Creaciones de Tarjetas o Card*/
+/* Limpiar los floats de las columnas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
 .card {
-  /* Agregar sombra para que parezca tarjeta */
-  box-shadow:  0.2rem 0.2rem 0.2rem 0.2rem grey;
-  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 black;
+  padding: 16px;
+  text-align: center;
+  background-color: white;
 }
-
-/* Cuando este sobre el mouse agregar sombra */
-.card:hover {
-  box-shadow: 0.3rem 0.3rem 0 grey;
-}
-
-/* Agregar un poco dentro del padding del container de la Card*/
-.container {
-  padding: 1rem 0.02rem ;
-}
-/*Finalizacion de las Cards*/
 
 /*Footer*/
 .footer {
