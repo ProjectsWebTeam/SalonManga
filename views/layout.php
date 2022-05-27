@@ -10,7 +10,7 @@
 
 <body>
     <header class="header">
-        <div class="navBar">
+        <div class="topnav">
             <a href="/">Salon Manga</a>
 
             <div class="navegacion">
