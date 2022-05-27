@@ -1,3 +1,13 @@
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.margin {
+    margin-top: 2rem;
+}
+
 .cardUl {
     display: grid;
     grid-template-rows: 2fr 1fr;
@@ -16,9 +26,32 @@
 }
 
 .cardInfo {
-    padding: 1rem;
+    padding: .5rem 1rem;
 }
 
 .tituloCard {
     font-size: 1.8rem;
+    margin: 0;
+}
+
+.descripCard {
+    font-size: 1.2rem;
+}
+
+.btnCard {
+    background-color: #4473ED;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin: 1rem;
+    display: block;
+    border: none;
+    border-radius: .5rem;
+}
+
+.btnCard:hover {
+    background-color: darken(#4473ED,5);
+    cursor: pointer;
 }
