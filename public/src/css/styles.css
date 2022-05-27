@@ -94,18 +94,18 @@ body {
 /*Creaciones de Tarjetas o Card*/
 .card {
   /* Agregar sombra para que parezca tarjeta */
-  box-shadow: 0 0.04rem 0.08rem 0 rgba(0,0,0,0.2);
+  box-shadow:  0.04rem 0.08rem 0 grey;
   transition: 0.3s;
 }
 
 /* Cuando este sobre el mouse agregar sombra */
 .card:hover {
-  box-shadow: 0 1.6rem 0 rgba(0,0,0,0.2);
+  box-shadow: 1.6rem 0 rgba(0,0,0,0.2);
 }
 
 /* Agregar un poco dentro del padding del container de la Card*/
 .container {
-  padding: 2px 16px;
+  padding: 0.02rem 10rem;
 }
 /*Finalizacion de las Cards*/
 
