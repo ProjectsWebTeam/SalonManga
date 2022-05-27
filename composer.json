@@ -3,9 +3,9 @@
     "description": "Visor de manga online",
     "autoload": {
         "psr-4": {
-            "MVC\\": "./",
-            "Controller\\": ".controllers",
-            "Model\\": "./models"
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
         }
     },
     "require": {}

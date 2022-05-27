@@ -2,13 +2,14 @@
 
 require_once __DIR__ . '/../includes/app.php';
 
-use Controllers\PaginasController;
+use Controllers\PaginaController;
 use MVC\Router;
 
 $router = new Router();
-
+ 
 //Area Publica
-$router->get('/', [PaginasController::class, 'index']);
+//$router->get('/', [PaginasController::class, 'index']);
+$router->get('/', [PaginaController::class, 'index']);
 
 
 
