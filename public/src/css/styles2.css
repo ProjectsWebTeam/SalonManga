@@ -1,0 +1,24 @@
+.cardUl {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    width: 25rem;
+    height: 50rem;
+
+    -webkit-box-shadow: 8px 10px 15px -5px rgba(0, 0, 0, 0.62);
+    box-shadow: 8px 10px 15px -5px rgba(0, 0, 0, 0.62);
+}
+
+.imgUl {
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cardInfo {
+    padding: 1rem;
+}
+
+.tituloCard {
+    font-size: 1.8rem;
+}
