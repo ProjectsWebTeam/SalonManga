@@ -25,10 +25,10 @@ body {
     text-align: center;
     padding: 2rem 1rem;
     text-decoration: none;
-    font-size: 1.063rem;
-}
-
-.topnav a:hover {
+    font-size: 1.5rem;
+  }
+  
+  .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -40,24 +40,18 @@ body {
 
 .topnav .icon {
     display: none;
-}
-
-@media screen and (max-width: 37.5rem) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-
+  }
+  
+  @media screen and (max-width: 1rem) {
+    .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
         display: block;
     }
-}
-
-@media screen and (max-width: 37.5rem) {
-    .topnav.responsive {
-        position: relative;
-    }
-
+  }
+  
+  @media screen and (max-width: 1rem) {
+    .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
