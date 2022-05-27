@@ -73,13 +73,41 @@ body {
 
 /*Finalización del NavBar*/
 
-/* Card mangas */
-.cardManga {
-    width: 25rem;
-    height: 50rem;
+/*Creación de Grid*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto  ;
+  grid-gap: 1rem;
+  background-color: white;
+  padding: 1rem;
 }
 
-/* Final card */
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+/*Finalización del Grid*/
+
+/*Creaciones de Tarjetas o Card*/
+.card {
+  /* Agregar sombra para que parezca tarjeta */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Cuando este sobre el mouse agregar sombra */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Agregar un poco dentro del padding del container de la Card*/
+.container {
+  padding: 2px 16px;
+}
+/*Finalizacion de las Cards*/
 
 /*Footer*/
 .footer {
