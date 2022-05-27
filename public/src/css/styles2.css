@@ -4,6 +4,33 @@
     margin: 0 auto;
 }
 
+.galeriaMangas {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+    row-gap: 3rem;
+}
+
+@media (max-width: 900px) {
+    .galeriaMangas {
+        grid-template-columns: auto auto;
+        column-gap: 1rem;
+        row-gap: 3rem;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 480px) {
+    .galeriaMangas {
+        display: block;
+        justify-content: center;
+    }
+
+    .cardUl {
+        margin: 0 auto 2rem auto;
+    }
+}
+
 .margin {
     margin-top: 2rem;
 }
@@ -13,9 +40,16 @@
     grid-template-rows: 2fr 1fr;
     width: 25rem;
     height: 50rem;
+    
+    transition: all .5s ease;
 
     -webkit-box-shadow: 8px 10px 15px -5px rgba(0, 0, 0, 0.62);
     box-shadow: 8px 10px 15px -5px rgba(0, 0, 0, 0.62);
+}
+
+.cardUl:hover {
+    transform: scale(1.02) translateZ(0);
+    transition: all .5s ease;
 }
 
 .imgUl {
