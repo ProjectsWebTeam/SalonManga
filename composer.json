@@ -1,0 +1,11 @@
+{
+    "name": "team/salon-manga",
+    "description": "Visor de manga online",
+    "autoload": {
+        "psr-4": {
+            "Team\\SalonManga\\": "src/",
+            "MVC\\": "./"
+        }
+    },
+    "require": {}
+}
