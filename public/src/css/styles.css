@@ -24,7 +24,7 @@ body{
     text-align: center;
     padding: 2rem 1rem;
     text-decoration: none;
-    font-size: 1.063rem;
+    font-size: 1.5rem;
   }
   
   .topnav a:hover {
@@ -63,4 +63,3 @@ body{
     }
   }
   /*Finalización del NavBar*/
-  
