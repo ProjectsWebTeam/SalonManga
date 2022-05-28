@@ -1,4 +1,4 @@
-<main class="contenedor">
+<main class="contenedorPrin">
     <div class="margin">
         <div class="galeriaMangas">
             <div class="cardUl">
