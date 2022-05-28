@@ -12,6 +12,7 @@ $router->get('/', [PaginaController::class, 'index']);
 $router->get('/categorias', [PaginaController::class, 'categorias']);
 $router->get('/ultimos', [PaginaController::class, 'ultimos']);
 $router->get('/favoritos', [PaginaController::class, 'favoritos']);
+$router->post('/favoritos', [PaginaController::class, 'favoritos']);
 $router->get('/perfil', [PaginaController::class, 'perfil']);
 
 
