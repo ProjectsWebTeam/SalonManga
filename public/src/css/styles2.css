@@ -222,8 +222,8 @@
 /* Fin zona de perfil */
 
 /* Zona Favoritos */
-.tituloPagina{
-    font-size: 3.6rem;
+.tituloPagina {
+    font-size: 3.2rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -254,4 +254,88 @@
     background-color: #9c0303;
     cursor: pointer;
     transition: all .5s ease;
+}
+
+/* Css de Categorias */
+.categoriasGrid {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2.5rem;
+    column-gap: 3rem;
+}
+
+.cardCat {
+    max-width: 100%;
+    min-height: 21rem;
+    overflow: hidden;
+    border-radius: 5rem;
+    position: relative;
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.58);
+    font-size: 2rem;
+    
+    transition: all .3s ease;
+}
+
+.cardCat:first-of-type {
+    grid-column: 1 / 4;
+    font-size: 2.4rem;
+    max-width: 100%;
+    max-height: 43.2rem;
+}
+
+.cardCat:hover{
+    transform: scale(1.02) translateZ(0);
+    transition: all .3s ease;
+}
+
+.bannerManga {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.overlayCat {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tituloCategoria {
+    margin: 1rem 0 0 2.5rem;
+    color: rgb(242, 242, 242);
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .categoriasGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardCat:first-of-type {
+        grid-column: 1 / 3;
+    }
+}
+
+@media (max-width: 480px) {
+    .categoriasGrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardCat {
+        
+        height: 21rem !important;
+    }
+
+    .cardCat:first-of-type {
+        max-width: 36.5rem;
+    }
 }
