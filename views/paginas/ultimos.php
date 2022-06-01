@@ -1,66 +1,19 @@
 <main class="contenedorPrin">
     <div class="margin">
         <div class="galeriaMangas">
+            <?php foreach($mangas as $manga) : ?>
             <div class="cardUl">
                 <div class="imgUl">
-                    <img src="src/img/1.jpg" alt="">
+                    <img src="src/img/<?php echo $manga->imagen; ?>" alt="">
                 </div>
                 <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
-                    <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
+                    <p class="tituloCard"><?php echo $manga->nombre; ?></p>
+                    <p class="descripCard"><?php echo $manga->descripcionCorta; ?></p>
 
                     <a href="/listcap" class="btnCard">Leer Capitulos</a>
                 </div>
             </div><!-- Fin del Card -->
-
-            <div class="cardUl">
-                <div class="imgUl">
-                    <img src="src/img/2.jpg" alt="">
-                </div>
-                <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
-                    <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
-
-                    <a href="#" class="btnCard">Leer Capitulos</a>
-                </div>
-            </div><!-- Fin del Card -->
-            
-            <div class="cardUl">
-                <div class="imgUl">
-                    <img src="src/img/3.jpg" alt="">
-                </div>
-                <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
-                    <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
-
-                    <a href="#" class="btnCard">Leer Capitulos</a>
-                </div>
-            </div><!-- Fin del Card -->
-
-            <div class="cardUl">
-                <div class="imgUl">
-                    <img src="src/img/4.jpg" alt="">
-                </div>
-                <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
-                    <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
-
-                    <a href="#" class="btnCard">Leer Capitulos</a>
-                </div>
-            </div><!-- Fin del Card -->
-
-            <div class="cardUl">
-                <div class="imgUl">
-                    <img src="src/img/5.jpg" alt="">
-                </div>
-                <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
-                    <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
-
-                    <a href="#" class="btnCard">Leer Capitulos</a>
-                </div>
-            </div><!-- Fin del Card -->
-            
+            <?php endforeach; ?>
         </div>
 
     </div>
