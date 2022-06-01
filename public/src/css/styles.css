@@ -98,29 +98,51 @@ body {
 /*Finalización del Footer*/
 
 /* Lista capitulo e Imagen lateral*/
+.contenedorImagen {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 
-.sidebar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    }
+img.portada {
+    max-width: 80%;
+    padding-left: -1rem;
+    padding-top: 2rem;
+    border-radius: 5%;
+}
 
-.content {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background: #f5c531;
-    height: 400px;
-    }
+.image {
+    flex-basis: 40%;
+}
 
-.extra {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background: #898989;
-    }
+.text{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
 
+ul{
+    list-style-type: none;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+ul li{
+    margin-top: -0.1rem;
+    background-color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.btnCap {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: left;
+    margin: 0rem;
+    display: block;
+    border: none;
+    border-radius: .5rem;
+}
 /*Final de Lista Capitulo e Imagen literal*/
