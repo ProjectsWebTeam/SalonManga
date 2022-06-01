@@ -10,6 +10,7 @@ $router = new Router();
 //Area Publica
 $router->get('/', [PaginaController::class, 'index']);
 $router->get('/categorias', [PaginaController::class, 'categorias']);
+$router->get('/categoria', [PaginaController::class, 'categoria']);
 $router->get('/ultimos', [PaginaController::class, 'ultimos']);
 $router->get('/favoritos', [PaginaController::class, 'favoritos']);
 $router->post('/favoritos', [PaginaController::class, 'favoritos']);

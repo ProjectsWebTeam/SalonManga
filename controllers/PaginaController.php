@@ -2,6 +2,7 @@
 
 namespace Controllers;
 
+use Model\Mangas;
 use MVC\Router;
 
 class PaginaController
@@ -20,10 +21,20 @@ class PaginaController
         ]);
     }
 
+    public static function categoria(Router $router)
+    {
+        $router->render("paginas/categoria", [
+            
+        ]);
+    }
+
     public static function ultimos(Router $router)
     {
+
+        $mangas = Mangas::all();
+
         $router->render("paginas/ultimos", [
-            
+            'mangas' => $mangas
         ]);
     }
 

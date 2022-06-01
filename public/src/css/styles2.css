@@ -46,7 +46,7 @@
     background-color: white;
 
     overflow: hidden;
-    height: 50rem;
+    height: auto;
     border-radius: 1rem;
 
     transition: all .5s ease;

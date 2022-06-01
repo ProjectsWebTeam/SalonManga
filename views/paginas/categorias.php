@@ -2,7 +2,7 @@
     <h1 class="text-center tituloPagina">Categorías</h1>
     <div class="categoriasGrid">
         <div class="cardCat">
-            <a href="#">
+            <a href="/categoria">
                 <img class="bannerManga" src="src/img/shonen.jpg" alt="shonen manga">
 
                 <div class="overlayCat">
@@ -12,7 +12,7 @@
         </div><!-- Fin del card categoria -->
 
         <div class="cardCat">
-            <a href="#">
+            <a href="/categoria">
                 <img class="bannerManga" src="src/img/shoujo.jpg" alt="shonen manga">
 
                 <div class="overlayCat">
@@ -22,7 +22,7 @@
         </div><!-- Fin del card categoria -->
 
         <div class="cardCat">
-            <a href="#">
+            <a href="/categoria">
                 <img class="bannerManga" src="src/img/horror.jpg" alt="shonen manga">
 
                 <div class="overlayCat">
@@ -32,7 +32,7 @@
         </div><!-- Fin del card categoria -->
 
         <div class="cardCat">
-            <a href="#">
+            <a href="/categoria">
                 <img class="bannerManga" src="src/img/seinen.jpg" alt="shonen manga">
 
                 <div class="overlayCat">
