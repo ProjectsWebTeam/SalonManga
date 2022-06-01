@@ -146,3 +146,12 @@ ul li{
     border-radius: .5rem;
 }
 /*Final de Lista Capitulo e Imagen literal*/
+
+/*Contenedor de pagina principal*/
+.contenedorPrimera {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+/*----------------------------------*/
