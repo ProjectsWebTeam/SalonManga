@@ -1,4 +1,5 @@
 <main>
+    <div class="margin">
     <div class="contenedorImagen">
         <div class="image">
             <img class="portada" src="src/img/1.jpg" alt="">
@@ -19,5 +20,6 @@
             <li><a class="btnCap" href="#">Dandadan - Capitulo 6</a></li>
             <li><a class="btnCap" href="#">Dandadan - Capitulo 7</a></li>
         </ul>
+    </div>
     </div>
 </main>
