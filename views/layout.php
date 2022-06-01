@@ -12,7 +12,7 @@
 
 <body>
     <header class="header">
-        <div class="topnav" id="miTopnav">
+        <div class="topnav">
             <a href="/">Salon Manga</a>
             <div class="navegacion">
                 <a href="/categorias">Categorias</a>

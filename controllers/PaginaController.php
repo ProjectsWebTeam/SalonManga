@@ -40,4 +40,11 @@ class PaginaController
             
         ]);
     }
+
+    public static function listcap(Router $router)
+    {
+        $router->render("paginas/listcap", [
+            
+        ]);
+    }
 }

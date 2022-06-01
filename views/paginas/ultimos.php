@@ -9,7 +9,7 @@
                     <p class="tituloCard">DanDaDan</p>
                     <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
 
-                    <a href="#" class="btnCard">Leer Capitulos</a>
+                    <a href="/listcap" class="btnCard">Leer Capitulos</a>
                 </div>
             </div><!-- Fin del Card -->
 

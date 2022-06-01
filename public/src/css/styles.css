@@ -98,29 +98,24 @@ body {
 /*Finalización del Footer*/
 
 /* Lista capitulo e Imagen lateral*/
+.contenedorImagen {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
 
-.sidebar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    }
+img {
+    max-width: 100%;
+}
 
-.content {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background: #f5c531;
-    height: 400px;
-    }
+.image {
+    flex-basis: 40%;
+}
 
-.extra {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background: #898989;
-    }
+.text{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
 
 /*Final de Lista Capitulo e Imagen literal*/

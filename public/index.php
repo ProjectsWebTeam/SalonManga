@@ -14,6 +14,7 @@ $router->get('/ultimos', [PaginaController::class, 'ultimos']);
 $router->get('/favoritos', [PaginaController::class, 'favoritos']);
 $router->post('/favoritos', [PaginaController::class, 'favoritos']);
 $router->get('/perfil', [PaginaController::class, 'perfil']);
+$router->get('/listcap', [PaginaController::class, 'listcap']);
 
 
 
