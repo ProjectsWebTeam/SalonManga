@@ -42,7 +42,7 @@
                     <img src="src/img/3.jpg" alt="">
                 </div>
                 <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
+                    <p class="tituloCard">Shingeki no Kyojin</p>
                     <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
 
                     <a href="#" class="btnCard">Leer Capitulos</a>
@@ -54,7 +54,7 @@
                     <img src="src/img/8.jpg" alt="">
                 </div>
                 <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
+                    <p class="tituloCard">Komi Can't Communicate</p>
                     <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
 
                     <a href="#" class="btnCard">Leer Capitulos</a>
@@ -66,7 +66,7 @@
                     <img src="src/img/10.jpg" alt="">
                 </div>
                 <div class="cardInfo">
-                    <p class="tituloCard">DanDaDan</p>
+                    <p class="tituloCard">Dr.STONE</p>
                     <p class="descripCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt facilis excepturi adipisci voluptatum, corporis error nisi unde.</p>
 
                     <a href="#" class="btnCard">Leer Capitulos</a>
