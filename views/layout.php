@@ -1,3 +1,16 @@
+<?php
+
+if (!isset($_SESSION)) { //Si no esta definida la sesion
+    session_start();
+}
+
+$auth = $_SESSION['login'] ?? null; //Recordar cambiar el index dependiendo si se autentica o no
+
+if (!isset($isLogin)) {
+    $isLogin = false;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,17 +31,23 @@
                 <a href="/categorias">Categorias</a>
                 <a href="/ultimos">Ultimos</a>
                 <a href="/favoritos">Favoritos</a>
-                <a href="/perfil">Perfil</a>
+                <?php if (!$auth) { ?>
+                    <a href="/login">Login</a>
+                <?php } else { ?>
+                    <a href="/perfil">Perfil</a>
+                    <a href="/logout">Cerrar Sesion</a>
+                <?php } ?>
             </div>
         </div>
     </header>
-    
+
     <?php echo $contenido; ?>
-    
-    <footer class="footer">
+
+    <footer class="footer <?php echo $isLogin ? "footer-fixed" : ""; ?>">
         <div>
             <p>&copy;2022. Derechos Reservados</p>
         </div>
     </footer>
 </body>
+
 </html>

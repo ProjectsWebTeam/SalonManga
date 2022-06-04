@@ -7,6 +7,12 @@ html {
     box-sizing: inherit;
 }
 
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;

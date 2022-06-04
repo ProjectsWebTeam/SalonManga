@@ -2,6 +2,7 @@
 
 require_once __DIR__ . '/../includes/app.php';
 
+use Controllers\LoginController;
 use Controllers\PaginaController;
 use MVC\Router;
 
@@ -16,6 +17,13 @@ $router->get('/favoritos', [PaginaController::class, 'favoritos']);
 $router->post('/favoritos', [PaginaController::class, 'favoritos']);
 $router->get('/perfil', [PaginaController::class, 'perfil']);
 $router->get('/listcap', [PaginaController::class, 'listcap']);
+
+//Inicio de Sesion
+$router->get('/login', [LoginController::class, 'login']);
+$router->post('/login', [LoginController::class, 'login']);
+$router->get('/registro', [LoginController::class, 'registro']);
+$router->post('/registro', [LoginController::class, 'registro']);
+$router->get('/logout', [LoginController::class, 'logout']);
 
 
 
