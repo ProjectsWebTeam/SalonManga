@@ -1,0 +1,53 @@
+<?php
+
+if (!isset($_SESSION)) { //Si no esta definida la sesion
+    session_start();
+}
+
+$auth = $_SESSION['login'] ?? null; //Recordar cambiar el index dependiendo si se autentica o no
+
+if (!isset($isLogin)) {
+    $isLogin = false;
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Manga</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/styles2.css">
+    <link rel="stylesheet" href="../src/css/normalize.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="topnav">
+            <a href="/">Salon Manga</a>
+            <div class="navegacion">
+                <a href="/categorias">Categorias</a>
+                <a href="/ultimos">Ultimos</a>
+                <a href="/favoritos">Favoritos</a>
+                <?php if (!$auth) { ?>
+                    <a href="/login">Login</a>
+                <?php } else { ?>
+                    <a href="/perfil">Perfil</a>
+                    <a href="/logout">Cerrar Sesion</a>
+                <?php } ?>
+            </div>
+        </div>
+    </header>
+
+    <?php echo $contenido; ?>
+
+    <footer class="footer <?php echo $isLogin ? "footer-fixed" : ""; ?>">
+        <div>
+            <p>&copy;2022. Derechos Reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>

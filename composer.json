@@ -3,8 +3,9 @@
     "description": "Visor de manga online",
     "autoload": {
         "psr-4": {
-            "Team\\SalonManga\\": "src/",
-            "MVC\\": "./"
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
         }
     },
     "require": {}

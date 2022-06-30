@@ -2,33 +2,29 @@
 
 require_once __DIR__ . '/../includes/app.php';
 
-use Controller\CitaController;
+use Controllers\LoginController;
+use Controllers\PaginaController;
 use MVC\Router;
-use Controller\LoginController;
 
 $router = new Router();
+ 
+//Area Publica
+$router->get('/', [PaginaController::class, 'index']);
+$router->get('/categorias', [PaginaController::class, 'categorias']);
+$router->get('/categoria', [PaginaController::class, 'categoria']);
+$router->get('/ultimos', [PaginaController::class, 'ultimos']);
+$router->get('/favoritos', [PaginaController::class, 'favoritos']);
+$router->post('/favoritos', [PaginaController::class, 'favoritos']);
+$router->get('/perfil', [PaginaController::class, 'perfil']);
+$router->get('/listcap', [PaginaController::class, 'listcap']);
 
-// Iniciar Sesion
-$router->get('/', [LoginController::class, 'login']);
-$router->post('/', [LoginController::class, 'login']);
+//Inicio de Sesion
+$router->get('/login', [LoginController::class, 'login']);
+$router->post('/login', [LoginController::class, 'login']);
+$router->get('/registro', [LoginController::class, 'registro']);
+$router->post('/registro', [LoginController::class, 'registro']);
 $router->get('/logout', [LoginController::class, 'logout']);
 
-// Recuperar password
-$router->get('/olvide', [LoginController::class, 'olvide']);
-$router->post('/olvide', [LoginController::class, 'olvide']);
-$router->get('/recuperar', [LoginController::class, 'recuperar']);
-$router->post('/recuperar', [LoginController::class, 'recuperar']);
-
-// Crear cuenta
-$router->get('/crear-cuenta', [LoginController::class, 'crear']);
-$router->post('/crear-cuenta', [LoginController::class, 'crear']);
-
-//Confirmar cuenta
-$router->get('/confirmar-cuenta', [LoginController::class, 'confirmar']);
-$router->get('/mensaje', [LoginController::class, 'mensaje']);
-
-//Area privada
-$router->get('/cita', [CitaController::class, 'index']);
 
 
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
